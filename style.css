@@ -762,6 +762,7 @@ header{
 @media (max-width:1090px) {
     .all-container{
         padding: 0 20px;
+        width: 100%;
     }
     .first-row{
         padding: 40px 30px;
