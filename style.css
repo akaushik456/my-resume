@@ -24,7 +24,7 @@ header{
 }
 .logo{
     width: 100%;
-    height: 90px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -761,7 +761,7 @@ header{
 
 @media (max-width:1090px) {
     .all-container{
-        padding: 0 20px;
+        padding: 0 5px;
         width: 100%;
     }
     .first-row{
@@ -986,7 +986,42 @@ header{
     }
 }
 @media (max-width:425px) {
+    .nav-lists{
+        gap: 15px;
+    }
+    .nav-lists li{
+        font-size: 13px;
+    }
     .clients{
         width: calc(100%);
+    }
+    .about-image-box{
+        width: 100%;
+    }
+    .first-row{
+        padding: 0;
+    }
+    .icon-boxes{
+        flex-direction: column;
+    }
+    .about-blog-box .google-fonts img{
+        height: auto;
+    }
+    .second-row{
+        padding: 0;
+    }
+    .my-skill-banner{
+        padding: 15px 3px;
+        margin: 20px 0;
+    }
+    .about-blog-area{
+        gap: 0;
+        padding: 0;
+    }
+    .about-service-box{
+        margin-top: 25px;
+    }
+    .section-heading{
+        font-size: 50px;
     }
 }
