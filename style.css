@@ -24,7 +24,7 @@ header{
 }
 .logo{
     width: 100%;
-    height: 60px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,6 +33,9 @@ header{
     width: 20%;
     color: #fff;
     z-index: 16;
+}
+.logo h1 img{
+    width: 100%;
 }
 .navbar{
     display: flex;
@@ -468,7 +471,7 @@ header{
 }
 .footer-menu li a{
     color: #676767;
-    font-size: 12px;
+    font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 0.1px;
     font-weight: 600;
