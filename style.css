@@ -754,9 +754,44 @@ header{
     background: #fff;
     color: #000;
 }
-
-
-
+.project-section{
+    width: 100%;
+    margin-top: 7%;
+}
+.project-row{
+    width: 100%;
+    gap: 20px;
+    display: flex;
+}
+.two-image-row{
+    width: 30%;
+}
+.my-image-work{
+    padding: 20px 20px;
+    display: grid;
+}
+.my-image-work img{
+    width: 100%;
+    border-radius: 30px;
+    height: auto;
+}
+.my-image-work .about-btn2 img{
+    width: auto;
+    height: auto;
+}
+.four-image-row{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.first-work-row{
+    display: flex;
+    width: 100%;
+}
+.section-heading-none{
+    display: none;
+}
 /* responsive-start */
 
 @media (max-width:1090px) {
@@ -946,6 +981,16 @@ header{
     .contact-form{
         width: 100%;
     }
+    .first-work-row{
+        width: 100%;
+        flex-direction: column;
+    }
+    .two-image-row{
+        width: 100%;
+    }
+    .my-image-work{
+        width: 100%;
+    }
 }
 @media (max-width:585px) {
     .first-row .shadow-box{
@@ -983,6 +1028,46 @@ header{
     .my-docs .sign-img{
         width: 100%;
         text-align: center;
+    }
+    .about-image-box{
+        width: 100%;
+    }
+    .section-heading{
+    font-size: 50px;
+    }
+    .project-section{
+        width: 100%;
+    }
+    .two-image-row{
+        width: 100%;
+    }
+    .project-row{
+        flex-direction: column;
+    }
+    .first-work-row{
+        width: 100%;
+        flex-direction: column;
+    }
+    .four-image-row{
+        width: 100%;
+    }
+    .section-heading-none{
+    font-size: 54px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: -01px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 2px;
+    justify-content: center;
+    color: #fff;
+    }
+    .section-heading{
+        font-size: 50px;
+    }
+    .display-none{
+        display: none;
     }
 }
 @media (max-width:425px) {
@@ -1023,5 +1108,24 @@ header{
     }
     .section-heading{
         font-size: 50px;
+    }
+    .project-section{
+        width: 100%;
+    }
+    .two-image-row{
+        width: 100%;
+    }
+    .project-row{
+        flex-direction: column;
+    }
+    .first-work-row{
+        width: 100%;
+        flex-direction: column;
+    }
+    .four-image-row{
+        width: 100%;
+    }
+    .section-heading{
+        font-size: 30px;
     }
 }
