@@ -772,6 +772,7 @@ header{
 .my-image-work{
     padding: 20px 20px;
     display: grid;
+    margin-top: 20px;
 }
 .my-image-work img{
     width: 100%;
@@ -791,6 +792,7 @@ header{
 .first-work-row{
     display: flex;
     width: 100%;
+    gap: 15px;
 }
 .section-heading-none{
     display: none;

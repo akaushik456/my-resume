@@ -9,10 +9,11 @@ function toggle_div_fun(id) {
     }
   }
 
-  // function change_color_on_click(id) {
-  //   var divelement2 = document.getElementById(id);
-  //   if(divelement2.style.color == 'black'){
-  //   }else{
-  //     divelement2.style.color = 'red'
-  //   }
-  // }
+  function change_color_on_click(id) {
+    var divelement2 = document.getElementById(id);
+    if(divelement2.style.color == 'black'){
+    }else{
+      divelement2.style.color = 'red'
+    }
+  }
+
